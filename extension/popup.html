@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace Uploader</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            width: 300px;
+            background: #f4f4f9;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        #productInfo {
+            background: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            min-height: 40px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Upload Product</h2>
+    <button id="fetchProduct" class="btn">Fetch Product</button>
+    <p id="productInfo">No product fetched yet.</p>
+    <button id="uploadProduct" class="btn">Upload to Marketplace</button>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

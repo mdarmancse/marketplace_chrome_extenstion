@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Marketplace Uploader",
+  "version": "1.0",
+  "description": "Fetch product & upload to Facebook Marketplace.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:9000/*",
+    "https://www.facebook.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
